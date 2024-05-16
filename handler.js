@@ -4,7 +4,7 @@ const CONSTANTS = require('./constants');
 
 module.exports.mmiAlert = async () => {
   const url =
-    'https://api.smallcase.com/market/indices/marketMoodIndex/current';
+    'https://api.tickertape.in/mmi/now';
 
   try {
     const response = await axios.get(url);
